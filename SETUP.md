@@ -1,4 +1,13 @@
-# **COMMAND FORMAT**
+# MY PERSONAL USE CASE
+ 1. I use this command everyday
+ 2. I'll open the terminal using my keyboard shortcut and search using the command
+ 3. To avoid using trackpad, multiple clicks which is a slow process
+ 4. Sometimes, the browser takes time to start
+ 5. So, it takes extra time for us to input the text into the search box
+ 6. If I want to search the same query on other website, I'll just go to the previous command in the terminal and change the last argument
+ 7. This process is fast as this involves less clicks
+
+# COMMAND FORMAT
 
 s <search_text> <y/a/g>
         
@@ -20,7 +29,7 @@ s <search_text> <y/a/g>
       #The browser window will automatically open up amazon with the search text results on "iphone 14 pro max"
   
         
-# **WINDOWS POWERSHELL SETUP**
+# WINDOWS POWERSHELL SETUP
 
   1. Open the powershell profile with notepad using the below powershell command
   
@@ -35,10 +44,15 @@ s <search_text> <y/a/g>
   5. Close and reopen the powershell to reload the profile 
         
   6. Now you can type the command to directly search without using your mouse/trackpad
+
+   _**Tip for windows users :**_
+        
+  Press Win+R to Open Run dialog box and search powershell
+  
+  This way you could access your powershell without using mouse/trackpad
   
   
-  
-# **LINUX / MAC TERMINAL SETUP**
+# LINUX / MAC TERMINAL SETUP
         
   1. To check the shell you're currently using type the following command in the terminal
   
@@ -61,9 +75,9 @@ s <search_text> <y/a/g>
         
   Go to the shortcut app and bind a keyboard shortcut to open the terminal
   
-  This way you could access your terminal much faster
+  This way you could access your terminal without using mouse/trackpad
   
-# **WORKING OF THE SCRIPT**
+# WORKING OF THE SCRIPT
   
   1. A URL is made from the text argument passed by the user and the last argument decides to which website the query to be passed
   
@@ -97,7 +111,7 @@ s <search_text> <y/a/g>
   
   You can pass the desired URL as an argument to open it in the default browser
     
-# **ADDITION OF OTHER WEBSITES TO SEARCH ON**
+# ADDITION OF OTHER WEBSITES TO SEARCH ON
   
   1. Grab the search query URL template of the website
   
