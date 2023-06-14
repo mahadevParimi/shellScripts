@@ -59,9 +59,14 @@ s <search_text> <y/a/g>
     echo $SHELL
   
   2. Open the shell profile using terminal command below
+
+  For zsh shell :
   
-    open ~/.zshrc # for zsh shell
-    open ~/.bashrc # for bash shell
+    open ~/.zshrc  
+
+  For bash shell :
+  
+    open ~/.bashrc
   
   3. This will open up the shell profile in default text editor,copy paste the code in the terminal_search.sh
         
