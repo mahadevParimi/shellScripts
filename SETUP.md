@@ -31,19 +31,25 @@ s <search_text> <y/a/g>
         
 # WINDOWS POWERSHELL SETUP
 
-  1. Open the powershell profile with notepad using the below powershell command
+  1.Open the powershell as an administrator and run the following command to allow the execution of custom scripts
+  
+    Set-ExecutionPolicy Unrestricted
+    
+  2.Type y to accept and press enter
+
+  3. Open the powershell profile with notepad using the below powershell command
   
     notepad $PROFILE
   
-  2. Incase the file isn't there just create the file with the exact name at the exact location
+  4. Incase the file isn't there just create the file with the exact name at the exact location
         
-  3. This will open up the powershell profile in notepad, copy paste the code in the powershell_search.ps1
+  5. This will open up the powershell profile in notepad, copy paste the code in the powershell_search.ps1
         
-  4. Save the changes made to the profile
+  6. Save the changes made to the profile
         
   5. Close and reopen the powershell to reload the profile 
         
-  6. Now you can type the command to directly search without using your mouse/trackpad
+  7. Now you can type the command to directly search without using your mouse/trackpad
 
    _**Tip for windows users :**_
         
