@@ -31,7 +31,7 @@ s <search_text> <y/a/g>
         
 # WINDOWS POWERSHELL SETUP
 
-  1. Open the powershell as an administrator and run the following command to allow the execution of custom scripts
+  1. Open the **POWERSHELL AS ADMINISTRATOR** and run the following command to allow the execution of custom scripts
   
     Set-ExecutionPolicy Unrestricted
     
@@ -39,15 +39,11 @@ s <search_text> <y/a/g>
 
   3. Open the powershell profile with notepad using the below powershell command
   
-    New-Item -Path $PROFILE -Type File -Force ; notepad $PROFILE
-  
-  4. This will open up the powershell profile in notepad, copy paste the code in the powershell_search.ps1 
+    New-Item -Path $PROFILE -Type File -Force ; curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/powershell_search.ps1 | Add-Content $PROFILE
         
-  5. Save the changes made to the profile 
+  4. Close and reopen the powershell to reload the profile 
         
-  6. Close and reopen the powershell to reload the profile 
-        
-  7. Now you can type the command to directly search without using your mouse/trackpad
+  5. Now you can type the command to directly search without using your mouse/trackpad
 
    _**Tip for windows users :**_
         
@@ -62,27 +58,21 @@ s <search_text> <y/a/g>
   
     echo $SHELL
   
-  2. Open the shell profile using terminal command below
+  2. Paste this command in your terminal
 
   For zsh shell :
   
-    open ~/.zshrc  
+    curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/terminal_search.sh >> ~/.zshrc && source ~/.zshrc  
 
   For bash shell :
   
-    open ~/.bashrc
-  
-  3. This will open up the shell profile in default text editor,copy paste the code in the terminal_search.sh
+    curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/terminal_search.sh >> ~/.bashrc && source ~/.bashrc
         
-  4. Save the changes made to the profile
-        
-  5. Close and reopen the terminal to reload the profile
-        
-  6. Now you can type the command to directly search without using your mouse/trackpad
+  3. Now you can type the command to directly search without using your mouse/trackpad
   
   _**Tip for mac users :**_
         
-  Go to the shortcut app and bind a keyboard shortcut to open the terminal
+  Go to the shortcut app and bind a keyboard shortcut to open the terminal or use command + space to open spotlight search and search terminal
   
   This way you could access your terminal without using mouse/trackpad
   
