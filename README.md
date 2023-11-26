@@ -9,6 +9,9 @@
 
 # COMMAND FORMAT
 
+<img width="1440" alt="Command_Usage" src="https://github.com/mahadevParimi/shellScripts/assets/81520370/f9a58dc9-d10a-49db-b899-cfd13d3aa7ac">
+
+
 s <search_text> <y/a/g>
         
   y - To input the text into youtube search box
@@ -39,7 +42,7 @@ s <search_text> <y/a/g>
 
   3. Open the powershell profile with notepad using the below powershell command
   
-    New-Item -Path $PROFILE -Type File -Force ; curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/powershell_search.ps1 | Add-Content $PROFILE
+    New-Item -Path $PROFILE -Type File -Force ; curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/elecPartSearch.ps1 | Add-Content $PROFILE
         
   4. Close and reopen the powershell to reload the profile 
         
@@ -62,11 +65,11 @@ s <search_text> <y/a/g>
 
   For zsh shell :
   
-    curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/terminal_search.sh >> ~/.zshrc && source ~/.zshrc  
+    curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/elecPartSearch.sh >> ~/.zshrc && source ~/.zshrc  
 
   For bash shell :
   
-    curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/terminal_search.sh >> ~/.bashrc && source ~/.bashrc
+    curl https://raw.githubusercontent.com/mahadevParimi/shellScripts/main/elecPartSearch.sh >> ~/.bashrc && source ~/.bashrc
         
   3. Now you can type the command to directly search without using your mouse/trackpad
   
